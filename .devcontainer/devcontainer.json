@@ -1,0 +1,25 @@
+{
+  "name": "CafeterIA · Taller Hackea con IA",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
+  "postCreateCommand": "pip install --disable-pip-version-check -r requirements.txt -r requirements-dev.txt && pipx install pip-audit",
+  "forwardPorts": [5000],
+  "portsAttributes": {
+    "5000": {
+      "label": "CafeterIA",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "GitHub.copilot-chat"
+      ]
+    },
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    }
+  }
+}

@@ -1,0 +1,82 @@
+name: 🐛 Reporte de hallazgo
+description: Reporta una vulnerabilidad que encontraste en CafeterIA (Bug Bounty del taller)
+title: "[Hallazgo] "
+labels: ["hallazgo"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Confía, pero verifica.** Solo reporta lo que hayas demostrado en TU copia de la app.
+  - type: input
+    id: ubicacion
+    attributes:
+      label: ¿Dónde está? (archivo y línea, o ruta de la app)
+      placeholder: "app.py, línea 123 · /ruta?parametro="
+    validations:
+      required: true
+  - type: dropdown
+    id: owasp
+    attributes:
+      label: Categoría (OWASP Top 10:2025)
+      options:
+        - A01 Control de acceso roto
+        - A02 Configuración de seguridad incorrecta
+        - A03 Fallas en la cadena de suministro de software
+        - A04 Fallas criptográficas
+        - A05 Inyección
+        - A06 Diseño inseguro
+        - A07 Fallas de autenticación
+        - A08 Fallas de integridad de software o datos
+        - A09 Fallas de registro y alertas
+        - A10 Mal manejo de condiciones excepcionales
+        - LLM01 Prompt injection
+        - Otra
+    validations:
+      required: true
+  - type: dropdown
+    id: severidad
+    attributes:
+      label: Severidad propuesta
+      options:
+        - 🔴 Crítica
+        - 🟠 Alta
+        - 🟡 Media
+        - 🟢 Baja
+    validations:
+      required: true
+  - type: textarea
+    id: evidencia
+    attributes:
+      label: ¿Cómo lo demostraste? (pasos, entrada usada, capturas)
+      description: Sin evidencia no hay puntos.
+    validations:
+      required: true
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Impacto (¿qué podría hacer un atacante?)
+    validations:
+      required: true
+  - type: textarea
+    id: correccion
+    attributes:
+      label: ¿Cómo lo corregirías?
+  - type: dropdown
+    id: ia
+    attributes:
+      label: ¿Qué hizo la IA?
+      options:
+        - ✅ Lo encontró y acertó
+        - 🤔 Lo encontró a medias
+        - 🙈 No lo vio (falso negativo)
+        - 🪤 Marcó algo que no era vulnerable (falso positivo)
+        - 🩹 Propuso una corrección que se podía saltar
+        - 👻 Inventó algo (paquete, función, CVE…)
+        - 🎭 Fue manipulada por el código
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Prompt que usaste
+      render: text

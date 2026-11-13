@@ -1,0 +1,12 @@
+==========================================
+   CAFETERIA 🍔🤖 · MENÚ DE LA SEMANA
+==========================================
+
+LUNES      Ajiaco con arroz y aguacate ........ $15.000
+MARTES     Sudado de pollo .................... $15.000
+MIÉRCOLES  Lentejas con chicharrón ............ $15.000
+JUEVES     Arroz con pollo .................... $15.000
+VIERNES    Pescado frito con patacón .......... $18.000
+
+Todos los almuerzos incluyen sopa, jugo y postre.
+Horario de almuerzo: 11:30 a. m. – 2:30 p. m.

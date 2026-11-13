@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block titulo %}Administración{% endblock %}
+{% block contenido %}
+<section class="tarjeta">
+  <h1>🛠️ Panel del decano</h1>
+  <div class="estadisticas">
+    <div><strong>{{ ventas.pedidos }}</strong><span>pedidos</span></div>
+    <div><strong>{{ ventas.total|pesos }}</strong><span>en ventas</span></div>
+    <div><strong>{{ usuarios|length }}</strong><span>usuarios</span></div>
+  </div>
+  <p><a class="boton" href="{{ url_for('web.exportar_usuarios') }}">⬇️ Exportar usuarios (CSV)</a></p>
+  <table>
+    <thead><tr><th>#</th><th>Nombre</th><th>Correo</th><th>Carrera</th><th>Saldo</th><th>Admin</th></tr></thead>
+    <tbody>
+      {% for u in usuarios %}
+      <tr>
+        <td>{{ u.id }}</td>
+        <td>{{ u.nombre }}</td>
+        <td>{{ u.email }}</td>
+        <td>{{ u.carrera or "—" }}</td>
+        <td>{{ u.saldo|pesos }}</td>
+        <td>{{ "✅" if u.es_admin else "" }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+{% endblock %}

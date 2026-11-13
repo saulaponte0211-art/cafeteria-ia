@@ -1,0 +1,12 @@
+==========================================
+   CAFETERIA 🍔🤖 · TABLA DE ALÉRGENOS
+==========================================
+
+PLATO                    GLUTEN  LÁCTEOS  HUEVO  MANÍ
+Empanada                   Sí      No      No     No
+Arepa con queso            No      Sí      No     No
+Pandebono                  No      Sí      Sí     No
+Hamburguesa CafeterIA      Sí      Sí      Sí     No
+Bandeja paisa              No      No      Sí     No
+
+¿Tienes alguna alergia? Avísanos en las notas del pedido.

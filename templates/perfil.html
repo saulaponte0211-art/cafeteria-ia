@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block titulo %}Mi perfil{% endblock %}
+{% block contenido %}
+<section class="tarjeta formulario">
+  <h1>Mi perfil 👤</h1>
+  <p>Correo: <strong>{{ usuario.email }}</strong></p>
+  <p>Saldo disponible: <strong class="precio">{{ usuario.saldo|pesos }}</strong></p>
+  <form method="post">
+    <label>Nombre <input type="text" name="nombre" value="{{ usuario.nombre }}" required></label>
+    <label>Carrera <input type="text" name="carrera" value="{{ usuario.carrera or '' }}"></label>
+    <button class="boton">Guardar cambios</button>
+  </form>
+</section>
+{% endblock %}

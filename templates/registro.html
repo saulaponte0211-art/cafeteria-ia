@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block titulo %}Crear cuenta{% endblock %}
+{% block contenido %}
+<section class="tarjeta formulario">
+  <h1>Crear cuenta ✨</h1>
+  {% if error %}<div class="aviso error">{{ error }}</div>{% endif %}
+  <form method="post">
+    <label>Nombre completo <input type="text" name="nombre" required></label>
+    <label>Correo institucional <input type="text" name="email" placeholder="tu@cafeteria.edu" required></label>
+    <label>Carrera <input type="text" name="carrera" placeholder="Ingeniería de Sistemas"></label>
+    <label>Contraseña <input type="password" name="password" required></label>
+    <button class="boton">Crear cuenta y recibir $20.000 🎁</button>
+  </form>
+</section>
+{% endblock %}

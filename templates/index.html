@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block titulo %}Menú{% endblock %}
+{% block contenido %}
+<section class="hero">
+  <div>
+    <h1>¿Qué se te antoja hoy? 😋</h1>
+    <p class="banner">{{ banner|safe }}</p>
+    <form class="buscador" action="{{ url_for('web.index') }}" method="get">
+      <input type="search" name="q" value="{{ q }}" placeholder="Busca empanadas, tinto, bandeja paisa...">
+      <button class="boton">Buscar 🔎</button>
+    </form>
+  </div>
+  {% if plato_del_dia %}
+  <a class="plato-del-dia" href="/plato/{{ plato_del_dia.id }}">
+    <span class="emoji-grande">{{ plato_del_dia.emoji }}</span>
+    <small>Plato del día</small>
+    <strong>{{ plato_del_dia.nombre }}</strong>
+  </a>
+  {% endif %}
+</section>
+
+{% if q %}
+<p class="resultados">Resultados para «{{ q }}»: {{ platos|length }} · <a href="{{ url_for('web.index') }}">ver todo el menú</a></p>
+{% endif %}
+
+<section class="grilla">
+  {% for plato in platos %}
+  <article class="tarjeta plato">
+    <div class="emoji-grande">{{ plato.emoji }}</div>
+    <h2>{{ plato.nombre }}</h2>
+    <p>{{ plato.descripcion }}</p>
+    <div class="pie-plato">
+      <span class="precio">{{ plato.precio|pesos }}</span>
+      <a class="boton" href="/plato/{{ plato.id }}">Ver y pedir</a>
+    </div>
+  </article>
+  {% else %}
+  <p class="vacio">No encontramos nada con ese nombre 😕</p>
+  {% endfor %}
+</section>
+
+<section class="tarjeta descargas">
+  <h2>📄 Descargas</h2>
+  <ul>
+    <li><a href="{{ url_for('web.descargar', archivo='menu-semana.txt') }}">Menú de la semana</a></li>
+    <li><a href="{{ url_for('web.descargar', archivo='alergenos.txt') }}">Tabla de alérgenos</a></li>
+  </ul>
+  <p class="nota">Tenemos {{ total_platos }} platos en la carta.</p>
+</section>
+{% endblock %}

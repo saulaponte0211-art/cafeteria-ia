@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block titulo %}Calculadora de propinas{% endblock %}
+{% block contenido %}
+<section class="tarjeta formulario">
+  <h1>🧮 Calculadora de propinas inteligente</h1>
+  <p>Escribe la operación y la calculamos por ti. Ejemplo: <code>25000 * 10 / 100</code></p>
+  <form method="get">
+    <label>Operación
+      <input type="text" name="expresion" value="{{ expresion }}" placeholder="25000 * 10 / 100" required>
+    </label>
+    <button class="boton">Calcular</button>
+  </form>
+  {% if resultado is not none %}
+  <p class="resultado">Resultado: <strong>{{ resultado }}</strong></p>
+  {% endif %}
+</section>
+{% endblock %}

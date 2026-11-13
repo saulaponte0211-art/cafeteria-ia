@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block titulo %}Mis pedidos{% endblock %}
+{% block contenido %}
+<section class="tarjeta">
+  <h1>🛍️ Mis pedidos</h1>
+  {% if pedidos %}
+  <table>
+    <thead><tr><th>#</th><th>Plato</th><th>Cantidad</th><th>Total</th><th>Fecha</th></tr></thead>
+    <tbody>
+      {% for p in pedidos %}
+      <tr>
+        <td><a href="{{ url_for('web.ver_pedido', pedido_id=p.id) }}">#{{ p.id }}</a></td>
+        <td>{{ p.emoji }} {{ p.plato }}</td>
+        <td>{{ p.cantidad }}</td>
+        <td>{{ p.total|pesos }}</td>
+        <td>{{ p.fecha }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  {% else %}
+  <p>Todavía no has pedido nada. <a href="{{ url_for('web.index') }}">¡Mira el menú!</a></p>
+  {% endif %}
+</section>
+{% endblock %}

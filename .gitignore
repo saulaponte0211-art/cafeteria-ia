@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# Datos locales de la app
+*.db
+*.log
+!ejercicios/reto-extra-csi/*.log
+
+# Secretos locales: ¡nunca los subas a GitHub!
+.env
+
+# El Árbitro desbloqueado (no lo publiques para no dañarle el juego a otros grupos)
+arbitro.py

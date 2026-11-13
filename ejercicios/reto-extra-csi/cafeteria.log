@@ -1,0 +1,239 @@
+2026-11-09 09:29:55,410 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 09:29:55,410 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 09:30:19,960 [INFO] Pedido #10: usuario=14 plato=6 cantidad=1 total=15000
+2026-11-09 09:31:58,471 [INFO] Intento de login: email=valen.m@cafeteria.edu password=princesa
+2026-11-09 09:31:58,471 [INFO] Login exitoso: valen.m@cafeteria.edu
+2026-11-09 09:32:18,462 [INFO] Pedido #37: usuario=7 plato=7 cantidad=1 total=18000
+2026-11-09 09:36:31,948 [INFO] Intento de login: email=nico.v@cafeteria.edu password=123456789
+2026-11-09 09:36:31,948 [INFO] Login exitoso: nico.v@cafeteria.edu
+2026-11-09 09:36:42,360 [INFO] Pedido #55: usuario=13 plato=2 cantidad=1 total=2500
+2026-11-09 09:38:36,013 [INFO] Intento de login: email=nico.v@cafeteria.edu password=123456789
+2026-11-09 09:38:36,013 [INFO] Login exitoso: nico.v@cafeteria.edu
+2026-11-09 09:38:57,698 [INFO] Pedido #71: usuario=13 plato=1 cantidad=1 total=1500
+2026-11-09 09:44:14,759 [INFO] Intento de login: email=beto@cafeteria.edu password=tequier
+2026-11-09 09:44:21,592 [INFO] Intento de login: email=beto@cafeteria.edu password=tequiero
+2026-11-09 09:44:21,592 [INFO] Login exitoso: beto@cafeteria.edu
+2026-11-09 09:44:47,807 [INFO] Pedido #63: usuario=3 plato=1 cantidad=1 total=1500
+2026-11-09 09:45:06,335 [INFO] Intento de login: email=ana@cafeteria.edu password=ana12345
+2026-11-09 09:45:06,335 [INFO] Login exitoso: ana@cafeteria.edu
+2026-11-09 09:45:35,378 [INFO] Pedido #8: usuario=2 plato=1 cantidad=1 total=1500
+2026-11-09 09:47:38,403 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 09:47:38,403 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 09:48:07,341 [INFO] Pedido #31: usuario=14 plato=1 cantidad=3 total=4500
+2026-11-09 10:09:50,566 [INFO] Intento de login: email=dani.l@cafeteria.edu password=chocolate
+2026-11-09 10:09:50,566 [INFO] Login exitoso: dani.l@cafeteria.edu
+2026-11-09 10:10:15,776 [INFO] Pedido #16: usuario=9 plato=1 cantidad=2 total=3000
+2026-11-09 10:14:34,638 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 10:14:34,638 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 10:14:49,801 [INFO] Pedido #49: usuario=14 plato=2 cantidad=3 total=7500
+2026-11-09 10:19:33,128 [INFO] Intento de login: email=laura@cafeteria.edu password=Lulo-Con-Leche-2024!
+2026-11-09 10:19:33,128 [INFO] Login exitoso: laura@cafeteria.edu
+2026-11-09 10:20:00,442 [INFO] Pedido #64: usuario=4 plato=2 cantidad=2 total=5000
+2026-11-09 10:21:15,985 [INFO] Intento de login: email=valen.m@cafeteria.edu password=princesa
+2026-11-09 10:21:15,985 [INFO] Login exitoso: valen.m@cafeteria.edu
+2026-11-09 10:21:33,074 [INFO] Pedido #70: usuario=7 plato=2 cantidad=3 total=7500
+2026-11-09 10:21:37,403 [INFO] Intento de login: email=valen.m@cafeteria.edu password=princesa
+2026-11-09 10:21:37,403 [INFO] Login exitoso: valen.m@cafeteria.edu
+2026-11-09 10:22:07,704 [INFO] Pedido #65: usuario=7 plato=6 cantidad=2 total=30000
+2026-11-09 10:25:21,284 [INFO] Intento de login: email=laura@cafeteria.edu password=Lulo-Con-Leche-2024!
+2026-11-09 10:25:21,284 [INFO] Login exitoso: laura@cafeteria.edu
+2026-11-09 10:25:35,567 [INFO] Pedido #22: usuario=4 plato=5 cantidad=1 total=5000
+2026-11-09 10:32:43,603 [INFO] Intento de login: email=nico.v@cafeteria.edu password=123456789
+2026-11-09 10:32:43,603 [INFO] Login exitoso: nico.v@cafeteria.edu
+2026-11-09 10:32:55,823 [INFO] Pedido #53: usuario=13 plato=2 cantidad=3 total=7500
+2026-11-09 10:36:54,978 [INFO] Intento de login: email=mateo.r@cafeteria.edu password=nacional
+2026-11-09 10:36:54,978 [INFO] Login exitoso: mateo.r@cafeteria.edu
+2026-11-09 10:37:24,733 [INFO] Pedido #58: usuario=15 plato=1 cantidad=1 total=1500
+2026-11-09 10:38:55,947 [INFO] Intento de login: email=juanp@cafeteria.edu password=Medellin12
+2026-11-09 10:39:04,518 [INFO] Intento de login: email=juanp@cafeteria.edu password=Medellin123
+2026-11-09 10:39:04,518 [INFO] Login exitoso: juanp@cafeteria.edu
+2026-11-09 10:39:15,848 [INFO] Pedido #40: usuario=6 plato=2 cantidad=1 total=2500
+2026-11-09 10:48:04,939 [INFO] Intento de login: email=ana@cafeteria.edu password=ana12345
+2026-11-09 10:48:04,939 [INFO] Login exitoso: ana@cafeteria.edu
+2026-11-09 10:48:19,076 [INFO] Pedido #50: usuario=2 plato=2 cantidad=2 total=5000
+2026-11-09 10:49:25,511 [INFO] Intento de login: email=laura@cafeteria.edu password=Lulo-Con-Leche-2024!
+2026-11-09 10:49:25,511 [INFO] Login exitoso: laura@cafeteria.edu
+2026-11-09 10:49:37,042 [INFO] Pedido #6: usuario=4 plato=2 cantidad=1 total=2500
+2026-11-09 10:52:05,363 [INFO] Intento de login: email=valen.m@cafeteria.edu password=princesa
+2026-11-09 10:52:05,363 [INFO] Login exitoso: valen.m@cafeteria.edu
+2026-11-09 10:52:21,640 [INFO] Pedido #39: usuario=7 plato=1 cantidad=2 total=3000
+2026-11-09 10:54:59,620 [INFO] Intento de login: email=laura@cafeteria.edu password=Lulo-Con-Leche-2024!
+2026-11-09 10:54:59,620 [INFO] Login exitoso: laura@cafeteria.edu
+2026-11-09 10:55:09,492 [INFO] Pedido #27: usuario=4 plato=4 cantidad=1 total=2000
+2026-11-09 10:56:21,002 [INFO] Intento de login: email=ana@cafeteria.edu password=ana12345
+2026-11-09 10:56:21,002 [INFO] Login exitoso: ana@cafeteria.edu
+2026-11-09 10:56:25,372 [INFO] Intento de login: email=valen.m@cafeteria.edu password=princesa
+2026-11-09 10:56:25,372 [INFO] Login exitoso: valen.m@cafeteria.edu
+2026-11-09 10:56:35,182 [INFO] Pedido #54: usuario=2 plato=2 cantidad=3 total=7500
+2026-11-09 10:56:42,201 [INFO] Pedido #35: usuario=7 plato=3 cantidad=2 total=8000
+2026-11-09 11:00:11,627 [INFO] Intento de login: email=camila.r@cafeteria.edu password=camila2006
+2026-11-09 11:00:11,627 [INFO] Login exitoso: camila.r@cafeteria.edu
+2026-11-09 11:00:29,708 [INFO] Pedido #46: usuario=5 plato=5 cantidad=3 total=15000
+2026-11-09 11:04:47,654 [INFO] Intento de login: email=dani.l@cafeteria.edu password=chocolat
+2026-11-09 11:04:54,373 [INFO] Intento de login: email=dani.l@cafeteria.edu password=chocolate
+2026-11-09 11:04:54,373 [INFO] Login exitoso: dani.l@cafeteria.edu
+2026-11-09 11:05:16,784 [INFO] Pedido #32: usuario=9 plato=6 cantidad=1 total=15000
+2026-11-09 11:08:04,013 [INFO] Intento de login: email=ana@cafeteria.edu password=ana1234
+2026-11-09 11:08:08,830 [INFO] Intento de login: email=ana@cafeteria.edu password=ana12345
+2026-11-09 11:08:08,830 [INFO] Login exitoso: ana@cafeteria.edu
+2026-11-09 11:08:28,871 [INFO] Pedido #15: usuario=2 plato=2 cantidad=2 total=5000
+2026-11-09 11:20:02,581 [INFO] Intento de login: email=dani.l@cafeteria.edu password=chocolat
+2026-11-09 11:20:13,394 [INFO] Intento de login: email=dani.l@cafeteria.edu password=chocolate
+2026-11-09 11:20:13,394 [INFO] Login exitoso: dani.l@cafeteria.edu
+2026-11-09 11:20:36,469 [INFO] Pedido #62: usuario=9 plato=2 cantidad=1 total=2500
+2026-11-09 11:20:40,095 [INFO] Intento de login: email=valen.m@cafeteria.edu password=princesa
+2026-11-09 11:20:40,095 [INFO] Login exitoso: valen.m@cafeteria.edu
+2026-11-09 11:21:03,880 [INFO] Pedido #43: usuario=7 plato=2 cantidad=1 total=2500
+2026-11-09 11:46:01,457 [INFO] Intento de login: email=nico.v@cafeteria.edu password=123456789
+2026-11-09 11:46:01,457 [INFO] Login exitoso: nico.v@cafeteria.edu
+2026-11-09 11:46:15,557 [INFO] Pedido #69: usuario=13 plato=8 cantidad=1 total=25000
+2026-11-09 12:04:46,594 [INFO] Intento de login: email=mafe.t@cafeteria.edu password=Mafe#Ing2026
+2026-11-09 12:04:46,594 [INFO] Login exitoso: mafe.t@cafeteria.edu
+2026-11-09 12:05:03,423 [INFO] Pedido #20: usuario=10 plato=5 cantidad=2 total=10000
+2026-11-09 12:07:19,527 [INFO] Intento de login: email=camila.r@cafeteria.edu password=camila2006
+2026-11-09 12:07:19,527 [INFO] Login exitoso: camila.r@cafeteria.edu
+2026-11-09 12:07:32,551 [INFO] Pedido #42: usuario=5 plato=1 cantidad=2 total=3000
+2026-11-09 12:10:00,862 [INFO] Intento de login: email=mateo.r@cafeteria.edu password=nacional
+2026-11-09 12:10:00,862 [INFO] Login exitoso: mateo.r@cafeteria.edu
+2026-11-09 12:10:30,276 [INFO] Pedido #47: usuario=15 plato=5 cantidad=2 total=10000
+2026-11-09 12:11:45,312 [INFO] Intento de login: email=valen.m@cafeteria.edu password=princes
+2026-11-09 12:11:53,207 [INFO] Intento de login: email=valen.m@cafeteria.edu password=princesa
+2026-11-09 12:11:53,207 [INFO] Login exitoso: valen.m@cafeteria.edu
+2026-11-09 12:12:19,053 [INFO] Pedido #25: usuario=7 plato=3 cantidad=1 total=4000
+2026-11-09 12:15:03,074 [INFO] Intento de login: email=juanp@cafeteria.edu password=Medellin123
+2026-11-09 12:15:03,074 [INFO] Login exitoso: juanp@cafeteria.edu
+2026-11-09 12:15:34,658 [INFO] Pedido #17: usuario=6 plato=2 cantidad=1 total=2500
+2026-11-09 12:15:36,059 [INFO] Intento de login: email=beto@cafeteria.edu password=tequiero
+2026-11-09 12:15:36,059 [INFO] Login exitoso: beto@cafeteria.edu
+2026-11-09 12:15:57,485 [INFO] Pedido #18: usuario=3 plato=5 cantidad=2 total=10000
+2026-11-09 12:18:32,890 [INFO] Intento de login: email=nico.v@cafeteria.edu password=123456789
+2026-11-09 12:18:32,890 [INFO] Login exitoso: nico.v@cafeteria.edu
+2026-11-09 12:18:54,593 [INFO] Intento de login: email=mateo.r@cafeteria.edu password=nacional
+2026-11-09 12:18:54,593 [INFO] Login exitoso: mateo.r@cafeteria.edu
+2026-11-09 12:18:55,438 [INFO] Pedido #5: usuario=13 plato=3 cantidad=3 total=12000
+2026-11-09 12:19:04,569 [INFO] Pedido #26: usuario=15 plato=1 cantidad=3 total=4500
+2026-11-09 12:28:43,261 [INFO] Intento de login: email=isa.p@cafeteria.edu password=isabella0
+2026-11-09 12:28:50,611 [INFO] Intento de login: email=isa.p@cafeteria.edu password=isabella01
+2026-11-09 12:28:50,611 [INFO] Login exitoso: isa.p@cafeteria.edu
+2026-11-09 12:29:14,235 [INFO] Pedido #36: usuario=12 plato=6 cantidad=2 total=30000
+2026-11-09 12:34:43,395 [INFO] Intento de login: email=ana@cafeteria.edu password=ana12345
+2026-11-09 12:34:43,395 [INFO] Login exitoso: ana@cafeteria.edu
+2026-11-09 12:35:09,548 [INFO] Pedido #41: usuario=2 plato=2 cantidad=1 total=2500
+2026-11-09 12:43:12,798 [INFO] Intento de login: email=camila.r@cafeteria.edu password=camila2006
+2026-11-09 12:43:12,798 [INFO] Login exitoso: camila.r@cafeteria.edu
+2026-11-09 12:43:42,358 [INFO] Pedido #33: usuario=5 plato=1 cantidad=1 total=1500
+2026-11-09 12:44:10,161 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.9
+2026-11-09 12:44:14,450 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 12:44:14,450 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 12:44:26,150 [INFO] Pedido #60: usuario=14 plato=4 cantidad=1 total=2000
+2026-11-09 12:46:49,338 [INFO] Intento de login: email=juanp@cafeteria.edu password=Medellin123
+2026-11-09 12:46:49,338 [INFO] Login exitoso: juanp@cafeteria.edu
+2026-11-09 12:47:15,020 [INFO] Pedido #56: usuario=6 plato=3 cantidad=3 total=12000
+2026-11-09 12:47:24,075 [INFO] Intento de login: email=laura@cafeteria.edu password=Lulo-Con-Leche-2024!
+2026-11-09 12:47:24,075 [INFO] Login exitoso: laura@cafeteria.edu
+2026-11-09 12:47:36,393 [INFO] Pedido #38: usuario=4 plato=6 cantidad=2 total=30000
+2026-11-09 12:49:34,384 [INFO] Intento de login: email=sebas.g@cafeteria.edu password=S3bas!2025
+2026-11-09 12:49:34,384 [INFO] Login exitoso: sebas.g@cafeteria.edu
+2026-11-09 12:49:46,215 [INFO] Pedido #13: usuario=8 plato=3 cantidad=1 total=4000
+2026-11-09 12:54:50,071 [INFO] Intento de login: email=ana@cafeteria.edu password=ana12345
+2026-11-09 12:54:50,071 [INFO] Login exitoso: ana@cafeteria.edu
+2026-11-09 12:55:21,923 [INFO] Pedido #44: usuario=2 plato=8 cantidad=1 total=25000
+2026-11-09 12:59:02,090 [INFO] Intento de login: email=juanp@cafeteria.edu password=Medellin123
+2026-11-09 12:59:02,090 [INFO] Login exitoso: juanp@cafeteria.edu
+2026-11-09 12:59:23,618 [INFO] Pedido #59: usuario=6 plato=3 cantidad=2 total=8000
+2026-11-09 13:00:21,256 [INFO] Intento de login: email=sebas.g@cafeteria.edu password=S3bas!2025
+2026-11-09 13:00:21,256 [INFO] Login exitoso: sebas.g@cafeteria.edu
+2026-11-09 13:00:46,707 [INFO] Pedido #30: usuario=8 plato=4 cantidad=2 total=4000
+2026-11-09 13:06:11,896 [INFO] Intento de login: email=beto@cafeteria.edu password=tequiero
+2026-11-09 13:06:11,896 [INFO] Login exitoso: beto@cafeteria.edu
+2026-11-09 13:06:29,779 [INFO] Pedido #19: usuario=3 plato=1 cantidad=1 total=1500
+2026-11-09 13:09:40,789 [INFO] Intento de login: email=sebas.g@cafeteria.edu password=S3bas!2025
+2026-11-09 13:09:40,789 [INFO] Login exitoso: sebas.g@cafeteria.edu
+2026-11-09 13:09:52,453 [INFO] Pedido #57: usuario=8 plato=2 cantidad=2 total=5000
+2026-11-09 13:11:49,821 [INFO] Intento de login: email=juanp@cafeteria.edu password=Medellin123
+2026-11-09 13:11:49,821 [INFO] Login exitoso: juanp@cafeteria.edu
+2026-11-09 13:12:02,592 [INFO] Pedido #23: usuario=6 plato=6 cantidad=2 total=30000
+2026-11-09 13:12:51,265 [INFO] Intento de login: email=juanp@cafeteria.edu password=Medellin123
+2026-11-09 13:12:51,265 [INFO] Login exitoso: juanp@cafeteria.edu
+2026-11-09 13:13:22,487 [INFO] Pedido #34: usuario=6 plato=6 cantidad=3 total=45000
+2026-11-09 13:15:30,328 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 13:15:30,328 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 13:15:45,983 [INFO] Pedido #11: usuario=14 plato=1 cantidad=2 total=3000
+2026-11-09 13:20:19,673 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 13:20:19,673 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 13:20:32,119 [INFO] Pedido #66: usuario=14 plato=6 cantidad=1 total=15000
+2026-11-09 13:23:20,816 [INFO] Intento de login: email=mafe.t@cafeteria.edu password=Mafe#Ing2026
+2026-11-09 13:23:20,816 [INFO] Login exitoso: mafe.t@cafeteria.edu
+2026-11-09 13:23:44,485 [INFO] Pedido #9: usuario=10 plato=1 cantidad=2 total=3000
+2026-11-09 13:35:10,269 [INFO] Intento de login: email=andres.c@cafeteria.edu password=millos1937
+2026-11-09 13:35:10,269 [INFO] Login exitoso: andres.c@cafeteria.edu
+2026-11-09 13:35:31,905 [INFO] Pedido #52: usuario=11 plato=2 cantidad=1 total=2500
+2026-11-09 13:36:08,644 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 13:36:08,644 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 13:36:24,983 [INFO] Pedido #14: usuario=14 plato=8 cantidad=2 total=50000
+2026-11-09 13:40:41,385 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 13:40:41,385 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 13:40:50,749 [INFO] Pedido #61: usuario=14 plato=2 cantidad=2 total=5000
+2026-11-09 14:15:25,496 [INFO] Intento de login: email=mateo.r@cafeteria.edu password=nacional
+2026-11-09 14:15:25,496 [INFO] Login exitoso: mateo.r@cafeteria.edu
+2026-11-09 14:15:45,086 [INFO] Pedido #45: usuario=15 plato=1 cantidad=2 total=3000
+2026-11-09 14:54:45,588 [INFO] Intento de login: email=beto@cafeteria.edu password=tequiero
+2026-11-09 14:54:45,588 [INFO] Login exitoso: beto@cafeteria.edu
+2026-11-09 14:54:59,982 [INFO] Pedido #51: usuario=3 plato=4 cantidad=1 total=2000
+2026-11-09 15:22:18,798 [ERROR] Exception on / [GET] sqlite3.OperationalError: unrecognized token: "'"
+2026-11-09 15:22:50,139 [INFO] Intento de login: email=isa.p@cafeteria.edu password=isabella01
+2026-11-09 15:22:50,139 [INFO] Login exitoso: isa.p@cafeteria.edu
+2026-11-09 15:23:19,448 [INFO] Pedido #75: usuario=12 plato=8 cantidad=1 total=25000
+2026-11-09 15:27:05,718 [INFO] Intento de login: email=juanp@cafeteria.edu password=Medellin123
+2026-11-09 15:27:05,718 [INFO] Login exitoso: juanp@cafeteria.edu
+2026-11-09 15:27:32,657 [INFO] Pedido #28: usuario=6 plato=6 cantidad=2 total=30000
+2026-11-09 16:16:07,491 [INFO] Intento de login: email=sebas.g@cafeteria.edu password=S3bas!2025
+2026-11-09 16:16:07,491 [INFO] Login exitoso: sebas.g@cafeteria.edu
+2026-11-09 16:16:22,863 [INFO] Pedido #73: usuario=8 plato=2 cantidad=1 total=2500
+2026-11-09 16:37:12,271 [INFO] Intento de login: email=andres.c@cafeteria.edu password=millos1937
+2026-11-09 16:37:12,271 [INFO] Login exitoso: andres.c@cafeteria.edu
+2026-11-09 16:37:42,687 [INFO] Pedido #72: usuario=11 plato=4 cantidad=1 total=2000
+2026-11-09 16:38:51,294 [INFO] Intento de login: email=andres.c@cafeteria.edu password=millos1937
+2026-11-09 16:38:51,294 [INFO] Login exitoso: andres.c@cafeteria.edu
+2026-11-09 16:39:21,554 [INFO] Pedido #48: usuario=11 plato=6 cantidad=2 total=30000
+2026-11-09 16:53:45,080 [INFO] Intento de login: email=laura@cafeteria.edu password=Lulo-Con-Leche-2024!
+2026-11-09 16:53:45,080 [INFO] Login exitoso: laura@cafeteria.edu
+2026-11-09 16:54:10,095 [INFO] Pedido #67: usuario=4 plato=4 cantidad=2 total=4000
+2026-11-09 17:14:31,186 [INFO] Intento de login: email=andres.c@cafeteria.edu password=millos1937
+2026-11-09 17:14:31,186 [INFO] Login exitoso: andres.c@cafeteria.edu
+2026-11-09 17:14:59,424 [INFO] Pedido #74: usuario=11 plato=1 cantidad=2 total=3000
+2026-11-09 17:45:18,522 [INFO] Intento de login: email=nico.v@cafeteria.edu password=123456789
+2026-11-09 17:45:18,522 [INFO] Login exitoso: nico.v@cafeteria.edu
+2026-11-09 17:45:47,588 [INFO] Pedido #7: usuario=13 plato=3 cantidad=1 total=4000
+2026-11-09 17:57:37,389 [INFO] Intento de login: email=sara.h@cafeteria.edu password=Sara.Hdz.99
+2026-11-09 17:57:37,389 [INFO] Login exitoso: sara.h@cafeteria.edu
+2026-11-09 17:57:50,230 [INFO] Pedido #68: usuario=14 plato=2 cantidad=1 total=2500
+2026-11-09 17:59:30,432 [INFO] Intento de login: email=dani.l@cafeteria.edu password=chocolate
+2026-11-09 17:59:30,432 [INFO] Login exitoso: dani.l@cafeteria.edu
+2026-11-09 17:59:50,902 [INFO] Pedido #12: usuario=9 plato=3 cantidad=2 total=8000
+2026-11-09 18:26:26,773 [INFO] Intento de login: email=mateo.r@cafeteria.edu password=nacional
+2026-11-09 18:26:26,773 [INFO] Login exitoso: mateo.r@cafeteria.edu
+2026-11-09 18:26:56,613 [INFO] Pedido #21: usuario=15 plato=8 cantidad=2 total=50000
+2026-11-09 18:42:18,241 [INFO] Intento de login: email=nico.v@cafeteria.edu password=123456789
+2026-11-09 18:42:18,241 [INFO] Login exitoso: nico.v@cafeteria.edu
+2026-11-09 18:42:38,773 [INFO] Pedido #24: usuario=13 plato=1 cantidad=3 total=4500
+2026-11-09 18:53:46,193 [INFO] Intento de login: email=isa.p@cafeteria.edu password=isabella01
+2026-11-09 18:53:46,193 [INFO] Login exitoso: isa.p@cafeteria.edu
+2026-11-09 18:54:17,811 [INFO] Pedido #29: usuario=12 plato=6 cantidad=1 total=15000
+2026-11-10 02:14:14,097 [ERROR] Exception on / [GET] sqlite3.OperationalError: unrecognized token: "'"
+2026-11-10 02:14:26,335 [ERROR] Exception on / [GET] sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 5
+2026-11-10 02:14:28,891 [ERROR] Exception on / [GET] sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 5
+2026-11-10 02:14:31,236 [ERROR] Exception on / [GET] sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 5
+2026-11-10 02:14:32,994 [ERROR] Exception on / [GET] sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 5
+2026-11-10 02:14:34,442 [ERROR] Exception on / [GET] sqlite3.OperationalError: 1st ORDER BY term out of range - should be between 1 and 5
+2026-11-10 02:19:50,114 [INFO] Intento de login: email=x
+2026-11-10 02:19:50,114 [INFO] Login exitoso: soporte-ti@cafeteria.edu (auditoria autorizada por Decanatura) password=x
+2026-11-10 02:20:15,301 [INFO] Intento de login: email=decano@cafeteria.edu' -- password=x
+2026-11-10 02:20:15,301 [INFO] Login exitoso: decano@cafeteria.edu
+2026-11-10 03:40:33,028 [INFO] Intento de login: email=beto@cafeteria.edu password=tequiero
+2026-11-10 03:40:33,028 [INFO] Login exitoso: beto@cafeteria.edu
+2026-11-10 03:40:46,484 [INFO] Pedido #76: usuario=3 plato=8 cantidad=-50 total=-1250000
+2026-11-10 03:40:59,247 [INFO] Pedido #77: usuario=3 plato=7 cantidad=-20 total=-360000
+2026-11-10 03:41:08,482 [INFO] Pedido #78: usuario=3 plato=6 cantidad=1 total=1
+2026-11-10 07:12:37,110 [INFO] Intento de login: email=beto@cafeteria.edu password=tequiero
+2026-11-10 07:12:37,110 [INFO] Login exitoso: beto@cafeteria.edu

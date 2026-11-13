@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block titulo %}Inicio{% endblock %} · CafeterIA</title>
+  <link rel="stylesheet" href="{{ estatico('estilos.css') }}">
+  <!-- jQuery para el modo oscuro 🌙 (la IA recomendó esta versión porque es "la más estable") -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+  <header class="barra">
+    <a class="logo" href="{{ url_for('web.index') }}">🍔🤖 Cafeter<span>IA</span></a>
+    <nav>
+      <a href="{{ url_for('web.index') }}">Menú</a>
+      <a href="{{ url_for('web.propina') }}">Propinas</a>
+      {% if g.usuario %}
+        <a href="{{ url_for('web.mis_pedidos') }}">Mis pedidos</a>
+        <a href="{{ url_for('web.perfil') }}">👋 {{ g.usuario.nombre }} · {{ g.usuario.saldo|pesos }}</a>
+        {% if session.es_admin %}<a href="{{ url_for('web.admin') }}">🛠️ Admin</a>{% endif %}
+        <a href="{{ url_for('web.logout') }}">Salir</a>
+      {% else %}
+        <a href="{{ url_for('web.login') }}">Entrar</a>
+        <a class="boton" href="{{ url_for('web.registro') }}">Crear cuenta</a>
+      {% endif %}
+      <button id="tema" type="button" title="Modo oscuro">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    {% for categoria, mensaje in get_flashed_messages(with_categories=true) %}
+      <div class="aviso {{ categoria }}">{{ mensaje }}</div>
+    {% endfor %}
+    {% block contenido %}{% endblock %}
+  </main>
+
+  <footer>
+    Hecho con 🤖 IA en un fin de semana · CafeterIA v1.0 ·
+    <a href="{{ url_for('web.descargar', archivo='menu-semana.txt') }}">Menú de la semana</a>
+  </footer>
+
+  <script>
+    $(function () {
+      if (localStorage.getItem("tema") === "oscuro") { $("body").addClass("oscuro"); }
+      $("#tema").on("click", function () {
+        $("body").toggleClass("oscuro");
+        localStorage.setItem("tema", $("body").hasClass("oscuro") ? "oscuro" : "claro");
+      });
+    });
+  </script>
+</body>
+</html>
